@@ -1,0 +1,10 @@
+.header {
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.header-menu {
+    display: flex;
+    border: 5px solid red;
+}
