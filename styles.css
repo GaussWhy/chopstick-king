@@ -18,6 +18,8 @@
 
 .about {
     background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section-2-about {
@@ -30,6 +32,8 @@
     width: 75%;
     border: 5px solid black;
     text-align: center;
+    margin-left: auto; /* This is what centered the DIV in the middle of the page */
+    margin-right: auto;
 }
 
 .section-2-h1 {
