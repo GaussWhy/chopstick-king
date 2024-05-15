@@ -23,4 +23,15 @@
 .section-2-about {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.section-2-main-p {
+    width: 75%;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.section-2-h1 {
+    text-align: center;
 }
