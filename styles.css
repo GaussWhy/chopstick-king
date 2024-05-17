@@ -39,3 +39,12 @@
 .section-2-h1 {
     text-align: center;
 }
+
+.menu {
+    text-align: center;
+}
+
+#lunch-special-table {
+    margin-left: auto;
+    margin-right: auto;
+}
