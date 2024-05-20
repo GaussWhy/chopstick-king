@@ -69,3 +69,7 @@
     font-weight: bold;
     border-radius: 10px;
 }
+
+.gallery-pics-div {
+    display: flex;
+}
