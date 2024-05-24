@@ -135,3 +135,31 @@
 #gold-star {
     color:gold;
 }
+
+.sign-up {
+    text-align: center;
+    background-color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sign-up-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sign-up-submit {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.sign-up-submit:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.sign-up-email, .sign-up-submit {
+    width: 15%;
+}
