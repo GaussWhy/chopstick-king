@@ -123,6 +123,15 @@
     padding: 10px;
 }
 
+.customer-review-2 {
+    width: 50%;
+    border: 5px double aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
 #gold-star {
     color:gold;
 }
