@@ -163,3 +163,29 @@
 .sign-up-email, .sign-up-submit {
     width: 15%;
 }
+
+.location {
+    text-align: center;
+    background-color:wheat;
+}
+
+.google-maps {
+    margin-top: 50px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-maps iframe {
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 0;
+    position: absolute;
+}
+
+.section-7-div {
+   font-size: 20px;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+}
