@@ -204,3 +204,9 @@ a {
 html { 
     scroll-behavior: smooth;   /* Makes redirecting when clicking on the header links smooth rather than instant */
 }
+
+
+h1 {
+    margin: 0px; /* This eliminated the whitespace between section divs */
+    padding-top: 10px;
+}
