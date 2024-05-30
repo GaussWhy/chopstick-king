@@ -194,3 +194,13 @@
     text-align: center;
     background-color: blanchedalmond;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+html { 
+    scroll-behavior: smooth;   /* Makes redirecting when clicking on the header links smooth rather than instant */
+}
