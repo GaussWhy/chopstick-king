@@ -3,11 +3,17 @@
     justify-content: space-between;
     font-size: 20px;
     background-color: wheat;
+    align-items: center;
 }
 
 #header-title {
     font-size: 30px;
     font-weight: bold;
+}
+
+.header-t:hover {
+    border-bottom: 5px solid black;
+    transition: 0.2s;
 }
 
 #main-pic {
