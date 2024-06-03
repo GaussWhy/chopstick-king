@@ -68,6 +68,23 @@
     text-align: left;
 }
 
+.lunch-menu-columns{
+    display: flex;
+    
+}
+
+
+ul {
+    list-style-type:none;
+}
+
+ul:before {
+    content:attr(aria-label);
+    font-size: 200%;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
 #menu-button {
     margin-top: 50px;
     width: 250px;
