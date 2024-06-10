@@ -271,3 +271,7 @@ h1 {
     margin: 0px; /* This eliminated the whitespace between section divs */
     padding-top: 10px;
 }
+
+#fullmenu-body {
+    font-family: "Telex", sans-serif;
+}
