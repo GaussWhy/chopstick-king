@@ -4,6 +4,8 @@
     font-size: 20px;
     background-color: wheat;
     align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #header-title {
@@ -36,8 +38,8 @@
 }
 
 .section-2-main-p {
-    width: 75%;
-    border: 5px solid black;
+    width: 65%;
+    border: 3px solid black;
     text-align: center;
     margin-left: auto; /* This is what centered the DIV in the middle of the page */
     margin-right: auto;
@@ -323,4 +325,13 @@ ol li {
 
 .fm-cs-desc {
     padding-left: 35px;
+}
+
+#index-body {
+    font-family: "Rubik", sans-serif;
+}
+
+.spectral {
+    font-family: "Spectral", serif;
+    font-variant: small-caps;
 }
