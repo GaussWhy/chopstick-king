@@ -273,5 +273,25 @@ h1 {
 }
 
 #fullmenu-body {
-    font-family: "Telex", sans-serif;
+    font-family: "Lora", serif;
+}
+
+.fm-odd {
+    background-color: #dcc1e6;
+    border: 1px solid #dcc1e6;
+}
+
+.fm-even {
+    background-color: #cdc1e6;
+    border: 1px solid #cdc1e6;
+}
+
+.fm-chefs-special {
+    background-color: #e0b8ef;
+    border: 1px solid #e0b8ef;
+}
+
+.fm-h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-variant: small-caps;
 }

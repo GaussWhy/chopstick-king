@@ -6,22 +6,28 @@
     <link rel="stylesheet" href="styles.css">
     <title>Chopstick King Menu</title>
 
-    <!-- The following 3 lines are needed to have the Telex font show on the webpage -->
+    <!-- The following 3 lines are needed to have the Ubuntu font show on the webpage -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Telex&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- The following 3 lines are needed to have the Lora font show on the webpage -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
 </head>
 
 <body id="fullmenu-body">
-    <h1>Chopstick King Full Menu</h1>
+    <h1 class="fm-even fm-h2">Chopstick King Full Menu</h1>
 
     <!-- Idea: Buttons leading to main sections of the menu (Appetizers, Beef, Pork Chicken, etc) -->
 
 
     <!-- Section 1: Appetizers -- Lo Mein -->
-    <div>
-            <h2>Appetizers</h2>
+    <div class="fm-odd">
+            <h2 class="fm-h2">Appetizers</h2>
             <div>
             <ul>
                 <li>Egg Roll (Pork or Vegetable) 1.95</li>
@@ -49,7 +55,7 @@
             </ul>
         </div>
 
-        <h2>Soups</h2>
+        <h2 class="fm-h2">Soups</h2>
         <div>
             <ul>
                 <li> Item -- (16 oz price) -- (32 oz price)</li>
@@ -64,7 +70,7 @@
             </ul>
         </div>
 
-        <h2>Fried Rice</h2>
+        <h2 class="fm-h2">Fried Rice</h2>
         <div>
             <ul>
                 <li>Item -- (16 oz price) -- (32 oz price)</li>
@@ -77,7 +83,7 @@
             </ul>
         </div>
 
-        <h2>Chow Mein</h2>
+        <h2 class="fm-h2">Chow Mein</h2>
         <p>Consists of Chinese Cabbage, Onion, Celery, Bean Sprouts, Carrots, and Bamboo Shoots in sauce</p>
         <div>
             <ul>
@@ -88,7 +94,7 @@
             </ul>
         </div>
 
-        <h2>Lo Mein (Noodle)</h2>
+        <h2 class="fm-h2">Lo Mein (Noodle)</h2>
         <div>
             <ul>
                 <li>Item -- (16 oz price) -- (32 oz price)</li>
@@ -102,8 +108,8 @@
     </div>
 
 <!-- Section 2: Mei Fun or Ho Fun -- Chicken -->
-<div>
-    <h2>Mei Fun or Ho Fun</h2>
+<div class="fm-even">
+    <h2 class="fm-h2">Mei Fun or Ho Fun</h2>
     <div>
         <ul>
             <li>Vegetable or Chicken or Roast Pork 10.95 </li>
@@ -114,13 +120,13 @@
         </ul>
     </div>
 
-    <h2>Egg Foo Young</h2>
+    <h2 class="fm-h2">Egg Foo Young</h2>
     <ul>
         <li>Choice of Mixed Vegetable, Chicken, or Roast Pork 9.95</li>
         <li>Beef, Shrimp, or House Special 11.95</li>
     </ul>
 
-    <h2>Pork</h2>
+    <h2 class="fm-h2">Pork</h2>
     <ul>
         <li>Item -- (16 ox price) -- (32 oz price)</li>
         <li>Roast Pork & Broccoli or Mixed Vegetables -- 8.50 -- 14.95</li>
@@ -134,7 +140,7 @@
         <li>Mala Spicy Shredded Pork with Scallions 14.95</li>
     </ul>
 
-    <h2>Chicken</h2>
+    <h2 class="fm-h2">Chicken</h2>
     <p>We only use white meat</p>
     <ul>
         <li>Item -- (16 oz price) -- (32 oz price)</li>
@@ -166,7 +172,7 @@
 </div>
 
 <!-- Section 3: Chef's Special -- Side Order (No Rice) -->
-    <div>
+    <div class="fm-chefs-special">
         <h2>Chef Special</h2>
         <div>Triple Delight - 16.95</div>
         <p>Roast pork, tender whtie meat chicken, and fresh jumbo shrimp stir-fried with fresh mixed vegetables in chef's brown sauce</p>
@@ -182,7 +188,7 @@
         <p>Fresh jumbo shrimp, chicken, beef stir-fried with fresh vegetables in a mouth-watering garlic sauce</p>
     </div>
 
-    <div>
+    <div class="fm-odd">
         <h2>Beef</h2>
         <ul>
             <li>Item -- (16 oz price) -- (32 oz price)</li>
@@ -220,7 +226,7 @@
     </div>
 
 <!-- Section 4: Seafood -- Moo Shu -->
-<div>
+<div class="fm-even">
     <h2>Seafood</h2>
     <ul>
         <li>Item -- (16 oz price) -- (32 oz price)</li>
@@ -258,7 +264,7 @@
 </div>
 
 <!-- Section 5: Vegetable and Bean Curd -- Gluten Free Menu -->
-<div>
+<div class="fm-odd">
     <h2>Vegetable and Bean Curd</h2>
     <ul>
         <li>Buddhist Delight (with or without tofu) 10.95</li>
@@ -329,7 +335,7 @@
 
 <!-- Section 6: Authentic Chinese Noodles -- Dry Stir Fry -->
 
-<div>
+<div class="fm-even">
     <h2>Authentic Chinese Noodles</h2>
     <p>Choice of Udon Noodle, Mei Fun (thin rice noodle), Ho Fun (wide rice noodle), Egg Noodle, or Cellophane Noodle (except double pan-fried noodle)</p>
     <ul>
@@ -377,7 +383,7 @@
 
 <!-- Section 7: Combination Dinner Platter -- Fryer Special -->
 
-<div>
+<div class="fm-odd">
     <h2>Combination Dinner Platter</h2>
     <p>Served with Pork Fried Rice or White Rice or Brown Rice and Pork or Vegetable Egg Roll</p>
     <ol>
@@ -436,7 +442,7 @@
 
 <!-- Section 8: Menu Notes -->
 
-<div>
+<div class="fm-even">
     <h2>Menu Notes</h2>
     <ul>
         <li>Pepper = Hot & Spicy</li>
