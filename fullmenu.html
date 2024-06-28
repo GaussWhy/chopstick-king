@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles.css">
     <title>Chopstick King Menu</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- The following 3 lines are needed to have the Ubuntu font show on the webpage -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,15 +44,15 @@
                 <li>Fried or Steamed or Pan Fried Wontons (10) 6.95</li>
                 <li>Dumplings (Pork or Vegetable) Fried or Steamed (8) 8.95</li>
                 <li>Sesame Noodles 6.95</li>
-                <li>Wontons in Hot Oil (10) 7.95</li>
+                <li><i class="bi bi-fire" id="red-fire"></i>Wontons in Hot Oil (10) 7.95</li>
                 <li>Crab Rangoon (8) 7.95</li>
                 <li>Pu-Pu Platter (for 2) 19.95</li>
                 <li>Crispy Chicken Wings (8) 9.95</li>
                 <li>Chicken Nuggets (8) 4.95</li>
                 <li>Crispy Tofu w. Spicy Hoisin Sauce or Spicy Ginger Scallion Sauce 5.95</li>
                 <li>French Fries 3.95</li>
-                <li>Pop-Corn Chicken 8.95</li>
-                <li>Fire Cracker Shrimp 9.95</li>
+                <li>[GF] Pop-Corn Chicken 8.95</li>
+                <li><i class="bi bi-fire" id="red-fire"></i> [GF] Fire Cracker Shrimp 9.95</li>
                 <li>Steamed Shrimp Dumplings (8) 10.95</li>
             </ul>
         </div>
@@ -58,22 +60,22 @@
         <h2 class="fm-h2">Soups</h2>
         <div>
             <ul>
-                <li> Item -- (16 oz price) -- (32 oz price)</li>
+                <li class="fm-guide"> Item -- (16 oz price) -- (32 oz price)</li>
                 <li>Wonton Soup -- 2.55 -- 4.95</li>
-                <li>Egg Drop Soup -- 2.25 -- 4.25</li>
+                <li>[GF] Egg Drop Soup -- 2.25 -- 4.25</li>
                 <li>Wonton Mixed Egg Drop -- 3.55 -- 5.25</li>
-                <li>Hot and Sour Soup -- 3.55 -- 5.25</li>
+                <li><i class="bi bi-fire" id="red-fire"></i>Hot and Sour Soup -- 3.55 -- 5.25</li>
                 <li>Chicken Rice or Noodles -- 3.75 -- 5.55</li>
                 <li>Vegetable Tofu or Miso Tofu -- 4.95 -- 7.55</li>
                 <li>House Special Wonton -- 6.95 -- 9.25</li>
-                <li>Chicken and Corn Soup -- 5.95 -- 8.95</li>
+                <li>[GF] Chicken and Corn Soup -- 5.95 -- 8.95</li>
             </ul>
         </div>
 
         <h2 class="fm-h2">Fried Rice</h2>
         <div>
             <ul>
-                <li>Item -- (16 oz price) -- (32 oz price)</li>
+                <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
                 <li>Vegetable / Chicken / Roast Pork Fried Rice -- 5.95 -- 9.95</li>
                 <li>Beef or Shrimp Fried Rice -- 6.95 -- 10.95</li>
                 <li>House Special or Yang Chow Fried Rice -- 6.95 -- 10.95</li>
@@ -84,10 +86,10 @@
         </div>
 
         <h2 class="fm-h2">Chow Mein</h2>
-        <p>Consists of Chinese Cabbage, Onion, Celery, Bean Sprouts, Carrots, and Bamboo Shoots in sauce</p>
+        <p class="fm-para">Consists of Chinese Cabbage, Onion, Celery, Bean Sprouts, Carrots, and Bamboo Shoots in sauce</p>
         <div>
             <ul>
-                <li>Item -- (16 oz price) -- (32 oz price)</li>
+                <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
                 <li>Vegetable / Chicken / Pork -- 6.50 -- 10.95</li>
                 <li>Shrimp or Beef -- 7.95 -- 11.95</li>
                 <li>House Special -- 7.95 -- 12.95</li>
@@ -97,7 +99,7 @@
         <h2 class="fm-h2">Lo Mein (Noodle)</h2>
         <div>
             <ul>
-                <li>Item -- (16 oz price) -- (32 oz price)</li>
+                <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
                 <li>Vegetable / Chicken / Pork -- 6.50 -- 10.95</li>
                 <li>Shrimp or Beef -- 7.95 -- 11.95</li>
                 <li>House Special -- 7.95 -- 12.95</li>
@@ -115,8 +117,8 @@
             <li>Vegetable or Chicken or Roast Pork 10.95 </li>
             <li>Shrimp or Beef 11.95</li>
             <li>House Special 12.95</li>
-            <li>Singapore Mei Fun with Meat 12.95</li>
-            <li>Vegetable Mei Fun Singapore Style with Egg 10.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Singapore Mei Fun with Meat 12.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Vegetable Mei Fun Singapore Style with Egg 10.95</li>
         </ul>
     </div>
 
@@ -128,43 +130,43 @@
 
     <h2 class="fm-h2">Pork</h2>
     <ul>
-        <li>Item -- (16 ox price) -- (32 oz price)</li>
+        <li class="fm-guide">Item -- (16 ox price) -- (32 oz price)</li>
         <li>Roast Pork & Broccoli or Mixed Vegetables -- 8.50 -- 14.95</li>
         <li>Roast Pork w. Mushrooms or String Beans or Snow Peas -- 8.50 -- 14.95</li>
         <li>Roast Pork w. Black Bean Sauce -- 8.50 -- 14.95</li>
-        <li>-- Note: The Following items come in one size, 32 oz --</li>
-        <li>Hunan or Szechuan Style Pork 14.95</li>
-        <li>Hot & Spicy Shredded Pork 14.95</li>
-        <li>Shredded Pork w. Garlic Sauce 14.95</li>
+        <li class="fm-guide">-- Note: The Following items come in one size, 32 oz --</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hunan or Szechuan Style Pork 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hot & Spicy Shredded Pork 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Shredded Pork w. Garlic Sauce 14.95</li>
         <li>Roast Pork w. Eggplant or Asparagus or Spinach 15.95</li>
-        <li>Mala Spicy Shredded Pork with Scallions 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Mala Spicy Shredded Pork with Scallions 14.95</li>
     </ul>
 
     <h2 class="fm-h2">Chicken</h2>
-    <p>We only use white meat</p>
+    <p class="fm-para">We only use white meat</p>
     <ul>
-        <li>Item -- (16 oz price) -- (32 oz price)</li>
+        <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
         <li>Chicken & Broccoli or Mixed Veg -- 8.50 -- 14.95</li>
-        <li>Moo Goo Gai Pan -- 8.50 -- 14.95</li>
+        <li>[GF] Moo Goo Gai Pan -- 8.50 -- 14.95</li>
         <li>Chicken w. Black Bean Sauce -- 8.50 -- 14.95</li>
         <li>Chicken w. Pepper and Onion -- 8.50 -- 14.95</li>
         <li>Chicken w. Mushrooms or String Beans or Snow Peas -- 8.50 -- 14.95</li>
-        <li>Curry Chicken -- 8.50 -- 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Curry Chicken -- 8.50 -- 14.95</li>
         <li>Sweet and Sour Chicken -- 8.50 -- 14.95</li>
-        <li>-- Note: The Following items come in one size, 32 oz --</li>
-        <li>Tai Chien Chicken 14.95</li>
-        <li>Mala Diced Chicken with Red Chili 14.95</li>
-        <li>General Tso's Chicken 14.95</li>
-        <li>Sesame or Orange Chicken 14.95</li>
+        <li class="fm-guide">-- Note: The Following items come in one size, 32 oz --</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Tai Chien Chicken 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Mala Diced Chicken with Red Chili 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>General Tso's Chicken 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Sesame or Orange Chicken 14.95</li>
         <li>Crispy Chicken w. Candied Walnuts 14.95</li>
-        <li>Hunan or Szechuan Style Chicken 14.95</li>
-        <li>Pineapple Chicken 14.95</li>
-        <li>Mango Chicken 15.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hunan or Szechuan Style Chicken 14.95</li>
+        <li>[GF] Pineapple Chicken 14.95</li>
+        <li>[GF] Mango Chicken 15.95</li>
         <li>Chicken w. Cashew Nuts 15.95</li>
-        <li>Kung Po Chicken (with Peanuts) 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Kung Po Chicken (with Peanuts) 14.95</li>
         <li>Chicken w. Chinese Broccoli or Shanghai Bok Choy 14.95 (white ginger sauce)</li>
-        <li>Hot and Spicy Shredded Chicken 14.95</li>
-        <li>Chicken w. Garlic Sauce 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hot and Spicy Shredded Chicken 14.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Chicken w. Garlic Sauce 14.95</li>
         <li>Diced Chicken and Shrimp 14.95</li>
         <li>Chicken w. Eggplant or Asparagus 14.95</li>
         <li>Chicken w. Spinach 15.95</li>
@@ -173,44 +175,44 @@
 
 <!-- Section 3: Chef's Special -- Side Order (No Rice) -->
     <div class="fm-chefs-special">
-        <h2>Chef Special</h2>
-        <div>Triple Delight - 16.95</div>
-        <p>Roast pork, tender whtie meat chicken, and fresh jumbo shrimp stir-fried with fresh mixed vegetables in chef's brown sauce</p>
-        <div>Four Seasons - 18.95</div>
-        <p>A perfect combination of roast pork, chicken, steak, and fresh jumbo shrimp stir-fried with mixed vegetables in chef's brown sauce</p>
-        <div>Happy Family - 24.95</div>
-        <p>Fresh jumbo shrimp, 1/2 lobster tail in shell, beef, chicken, and roast pork sauteed with garden fresh vegetables in chef's brown sauce</p>
-        <div>House Special Duck - 29.95</div>
-        <p>Crispy boneless duck served over a generous portion of sauteed shrimp, chicken, roast pork, and mixed vegetables</p>
-        <div>Scallops With Beef Delight - 24.95</div>
-        <p>Sliced beef steak sauteed with scallops, pea pods, baby corn, carrots, and broccoli in our signature brown sauce</p>
-        <div>Triple Crown With Garlic Sauce - 18.95</div>
-        <p>Fresh jumbo shrimp, chicken, beef stir-fried with fresh vegetables in a mouth-watering garlic sauce</p>
+        <h2 class="fm-h2">Chef Special</h2>
+        <div class="fm-cs-item">Triple Delight - 16.95</div>
+        <p class="fm-cs-desc">Roast pork, tender white meat chicken, and fresh jumbo shrimp stir-fried with fresh mixed vegetables in chef's brown sauce</p>
+        <div class="fm-cs-item">Four Seasons - 18.95</div>
+        <p class="fm-cs-desc">A perfect combination of roast pork, chicken, steak, and fresh jumbo shrimp stir-fried with mixed vegetables in chef's brown sauce</p>
+        <div class="fm-cs-item">Happy Family - 24.95</div>
+        <p class="fm-cs-desc">Fresh jumbo shrimp, 1/2 lobster tail in shell, beef, chicken, and roast pork sauteed with garden fresh vegetables in chef's brown sauce</p>
+        <div class="fm-cs-item">House Special Duck - 29.95</div>
+        <p class="fm-cs-desc">Crispy boneless duck served over a generous portion of sauteed shrimp, chicken, roast pork, and mixed vegetables</p>
+        <div class="fm-cs-item">Scallops With Beef Delight - 24.95</div>
+        <p class="fm-cs-desc">Sliced beef steak sauteed with scallops, pea pods, baby corn, carrots, and broccoli in our signature brown sauce</p>
+        <div class="fm-cs-item"><i class="bi bi-fire" id="red-fire"></i>Triple Crown With Garlic Sauce - 18.95</div>
+        <p class="fm-cs-desc">Fresh jumbo shrimp, chicken, and beef stir-fried with fresh vegetables in a mouth-watering garlic sauce</p>
     </div>
 
     <div class="fm-odd">
-        <h2>Beef</h2>
+        <h2 class="fm-h2">Beef</h2>
         <ul>
-            <li>Item -- (16 oz price) -- (32 oz price)</li>
+            <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
             <li>Beef w. Broccoli or Mixed Vegetables -- 9.95 -- 17.95</li>
             <li>Beef w. Mushrooms or String Beans or Snow Peas -- 9.95 -- 17.95</li>
             <li>Pepper Steak w. Onion (or tomato) -- 9.95 -- 17.95</li>
-            <li>Curry Beef -- 9.95 -- 17.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Curry Beef -- 9.95 -- 17.95</li>
             <li>Beef w. Black Bean Sauce -- 9.95 -- 17.95</li>
-            <li>-- Note: The Following items come in one size, 32 oz --</li>
-            <li>Sesame Beef or Orange Beef 19.95</li>
-            <li>Hunan Style Beef or Szechuan Style Beef 17.95</li>
-            <li>Hot & Spicy Shredded Beef 17.95</li>
-            <li>Beef w. Garlic Sauce 17.95</li>
+            <li class="fm-guide">-- Note: The Following items come in one size, 32 oz --</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Sesame Beef or Orange Beef 19.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Hunan Style Beef or Szechuan Style Beef 17.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Hot & Spicy Shredded Beef 17.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Beef w. Garlic Sauce 17.95</li>
             <li>Beef w. Eggplant or Asparagus or Spinach 18.95</li>
             <li>Beef w. Chinese Broccoli or Shanghai Bok Choy 18.95 (oyster sauce)</li>
             <li>Scallion Beef 19.95</li>
-            <li>Beef w. Basil & Green Chili 19.95</li>
+            <li><i class="bi bi-fire" id="red-fire"></i>Beef w. Basil & Green Chili 19.95</li>
         </ul>
 
-        <h2>Side Order (No Rice)</h2>
+        <h2 class="fm-h2">Side Order (No Rice)</h2>
         <ul>
-            <li>Item -- (16 oz price) -- (32 oz price)</li>
+            <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
             <li>Steamed Broccoli or Mixed Vegetables -- 5.95 -- 9.95</li>
             <li>Broccoli or Mixed Vegetables in Brown Sauce -- 6.95 -- 10.95</li>
             <li>White Rice -- 1.75 -- 3.50</li>
@@ -227,34 +229,34 @@
 
 <!-- Section 4: Seafood -- Moo Shu -->
 <div class="fm-even">
-    <h2>Seafood</h2>
+    <h2 class="fm-h2">Seafood</h2>
     <ul>
-        <li>Item -- (16 oz price) -- (32 oz price)</li>
+        <li class="fm-guide">Item -- (16 oz price) -- (32 oz price)</li>
         <li>Jumbo Shrimp w. Broccoli or Mixed Vegetables -- 9.95 -- 17.95</li>
-        <li>Jumbo Shrimp w. Lobster Sauce -- 9.95 -- 17.95</li>
+        <li>[GF] Jumbo Shrimp w. Lobster Sauce -- 9.95 -- 17.95</li>
         <li>Jumbo Shrimp w. Black Bean Sauce -- 9.95 -- 17.95</li>
-        <li>Curry Shrimp -- 9.95 -- 17.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Curry Shrimp -- 9.95 -- 17.95</li>
         <li>Jumbo Shrimp w. String Beans or Snow Peas -- 10.95 -- 18.95</li>
-        <li>-- Note: The Following items come in one size, 32 oz --</li>
-        <li>Hunan Style or Szechuan Style Jumbo Shrimp 17.95</li>
+        <li class="fm-guide">-- Note: The Following items come in one size, 32 oz --</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hunan Style or Szechuan Style Jumbo Shrimp 17.95</li>
         <li>Shrimp w. Cashew Nuts (Baby Shrimp) 17.95</li>
-        <li>Kung Po Shrimp (Baby Shrimp) 17.95</li>
-        <li>Hot & Spicy Jumbo Shrimp 17.95</li>
-        <li>Jumbo Shrimp w. Garlic Sauce 17.95</li>
-        <li>General Tso or Sesame or Orange Shrimp 17.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Kung Po Shrimp (Baby Shrimp) 17.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hot & Spicy Jumbo Shrimp 17.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Jumbo Shrimp w. Garlic Sauce 17.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>General Tso or Sesame or Orange Shrimp 17.95</li>
         <li>Mango Shrimp or Sweet & Sour Shrimp 18.95</li>
         <li>Jumbo Shrimp w. Chinese Broccoli or Shanghai Bok Choy 17.95</li>
         <li>Sha Cha Shrimp 17.95</li>
         <li>Jumbo Shrimp w. Asparagus or Spinach or Mushrooms 19.95</li>
-        <li>Crispy Jumbo Shrimp w. Candied Walnuts 18.95</li>
-        <li>Calamari or Jumbo Shrimp w. Black Pepper Salt 18.95</li>
+        <li>[GF] Crispy Jumbo Shrimp w. Candied Walnuts 18.95</li>
+        <li>[GF] Calamari or Jumbo Shrimp w. Black Pepper Salt 18.95</li>
         <li>Jumbo Shrimp & Calamari in Black Bean Suace 18.95</li>
-        <li>Seafood Delight (Fresh Jumbo shrimp, 1/2 lobster tail in shell, sea scallops, squid, and crab meat sauteed with mixed vegetables in a white wine sauce) 24.95</li>
-        <li>King Lobster Hong Kong Style (two lobster tails in shell, and jumbo shrimp smothered in lobster sauce served w. steamed broccoli) 39.95</li>
+        <li>[GF] Seafood Delight (Fresh Jumbo shrimp, 1/2 lobster tail in shell, sea scallops, squid, and crab meat sauteed with mixed vegetables in a white wine sauce) 24.95</li>
+        <li>[GF] King Lobster Hong Kong Style (two lobster tails in shell, and jumbo shrimp smothered in lobster sauce served w. steamed broccoli) 39.95</li>
         <li>Seasonal Fresh Fish Filet Sauteed (choice of szechuan spiced sauce or white ginger scallion sauce) 19.95</li>
     </ul>
 
-    <h2>Moo Shu</h2>
+    <h2 class="fm-h2">Moo Shu</h2>
     <ul>
         <li>Moo Shu Vegetables or Chicken or Pork 12.95</li>
         <li>Moo Shu Beef or Shrimp 14.95</li>
@@ -265,31 +267,31 @@
 
 <!-- Section 5: Vegetable and Bean Curd -- Gluten Free Menu -->
 <div class="fm-odd">
-    <h2>Vegetable and Bean Curd</h2>
+    <h2 class="fm-h2">Vegetable and Bean Curd</h2>
     <ul>
         <li>Buddhist Delight (with or without tofu) 10.95</li>
-        <li>Curry Tofu (Fried) or Garlic Tofu (Soft) 12.95</li>
-        <li>Eggplant w. Garlic Sauce 12.95</li>
-        <li>General Tso's or Sesame Tofu (Fried) 11.95</li>
-        <li>Szechuan Style Bean Curd 10.95</li>
-        <li>String Beans w. Garlic Sauce or Dry Sauteed 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Curry Tofu (Fried) or Garlic Tofu (Soft) 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Eggplant w. Garlic Sauce 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>General Tso's or Sesame Tofu (Fried) 11.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Szechuan Style Bean Curd 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>String Beans w. Garlic Sauce or Dry Sauteed 12.95</li>
         <li>Fried Tofu w. Eggplant 12.95</li>
         <li>Fried Tofu w. Cashew Nuts 13.95</li>
         <li>Shanghai Bok Choy w. Ginger Garlic Sauce 11.95</li>
-        <li>Broccoli or Mixed Vegetables in Garlic Sauce 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Broccoli or Mixed Vegetables in Garlic Sauce 10.95</li>
         <li>Vegetarian Beef w. Pepper and Onion in Brown Sauce 15.95</li>
-        <li>Vegetarian Curry Chicken 15.95</li>
-        <li>Vegetarian Duck in Spicy Garlic Sauce 15.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Vegetarian Curry Chicken 15.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Vegetarian Duck in Spicy Garlic Sauce 15.95</li>
         <li>Vegetarian Chicken w. Vegetables in White Sauce 15.95</li>
         <li>Fried Tofu w. Broccoli 12.95</li>
-        <li>Fried Tofu Kung Po Style (Spicy w. Peanuts) 13.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Fried Tofu Kung Po Style (Spicy w. Peanuts) 13.95</li>
         <li>Triple Jade (Broccoli, snow peas, and string beans) 12.95</li>
     </ul>
 
-    <h2>Lite Menu</h2>
-    <p>Steamed without any salt, sugar, or MSG. Served with whtie rice (brown rice $0.75 extra). Choice of sauce: Chef's brown, spicy garlic, ginger-garlic, white sauce, black-bean sauce spicy szechuan sauce.</p>
+    <h2 class="fm-h2">Lite Menu</h2>
+    <p class="fm-para">Steamed without any salt, sugar, or MSG. Served with whtie rice (brown rice $0.75 extra). Choice of sauce: Chef's brown, spicy garlic, ginger-garlic, white sauce, black-bean sauce spicy szechuan sauce.</p>
     <ul>
-        <li>Item -- Small Size Price -- Large Size Price</li>
+        <li class="fm-guide">Item -- Small Size Price -- Large Size Price</li>
         <li>Chicken w. Broccoli or Mixed Vegetables -- 8.95 -- 14.95</li>
         <li>Mixed Vegetables -- 6.95 -- 10.95</li>
         <li>Broccoli, Snow Peas & String Beans -- 8.95 -- 12.95</li>
@@ -302,14 +304,14 @@
         <li>Shrimp Asparagus or Spinach 16.95 (Large size only)</li>
     </ul>
 
-    <h2>Lettuce Wraps $19.95</h2>
-    <div>Romaine Lettuce Wrapped with your choice of: Chicken, Shtredded Pork, Shredded Beef, or Baby Shrimp</div>
-    <div>Choice of Sauce: Sha Cha sauce, Beijing Style Bean Sauce</div>
-    <div>(Served w. White Rice)</div>
+    <h2 class="fm-h2">Lettuce Wraps $19.95</h2>
+    <div class="fm-para">Romaine Lettuce Wrapped with your choice of: Chicken, Shtredded Pork, Shredded Beef, or Baby Shrimp</div>
+    <div class="fm-para">Choice of Sauce: Sha Cha sauce, Beijing Style Bean Sauce</div>
+    <div class="fm-para">(Served w. White Rice)</div>
 
-    <h2>Gluten Free Menu</h2>
+    <h2 class="fm-h2">Gluten Free Menu</h2>
     <ul>
-        <li>Item -- Price with Chicken or Tofu -- Price with Beef or Shrimp</li>
+        <li class="fm-guide">Item -- Price with Chicken or Tofu -- Price with Beef or Shrimp</li>
         <li>Broccoli -- 14.95 -- 16.95</li>
         <li>Mixed Vegetables -- 14.95 -- 16.95</li>
         <li>String Bean -- 15.95 -- 17.95</li>
@@ -336,8 +338,8 @@
 <!-- Section 6: Authentic Chinese Noodles -- Dry Stir Fry -->
 
 <div class="fm-even">
-    <h2>Authentic Chinese Noodles</h2>
-    <p>Choice of Udon Noodle, Mei Fun (thin rice noodle), Ho Fun (wide rice noodle), Egg Noodle, or Cellophane Noodle (except double pan-fried noodle)</p>
+    <h2 class="fm-h2">Authentic Chinese Noodles</h2>
+    <p class="fm-para">Choice of Udon Noodle, Mei Fun (thin rice noodle), Ho Fun (wide rice noodle), Egg Noodle, or Cellophane Noodle (except double pan-fried noodle)</p>
     <ul>
         <li>Shredded Chicken or Pork w. Szechuan Cabbage Noodle Soup (or marinated mustard greens) 9.95</li>
         <li>Chicken w. Spinach Noodle Soup (or mixed vegetables) 9.95</li>
@@ -348,9 +350,9 @@
         <li>Seafood w. Spinach Noodle Soup 15.95</li>
     </ul>
 
-    <h2>Protein</h2>
+    <h2 class="fm-h2">Protein</h2>
     <ul>
-        <li>Item -- 8 oz price -- 16 oz price</li>
+        <li class="fm-guide">Item -- 8 oz price -- 16 oz price</li>
         <li>Stir-fried chicken in Brown Sauce or Spicy Garlic Sauce -- 8.95 -- 14.95</li>
         <li>Beef in Brown Sauce or Spicy Garlic Sauce -- 9.95 -- 17.95</li>
         <li>Roast Pork in Brown Sauce -- 8.95 -- 14.95</li>
@@ -358,7 +360,7 @@
         <li>Shrimp in Brown Sauce (10 pieces) 14.95 (16 oz only)</li>
     </ul>
 
-    <h2>Extras</h2>
+    <h2 class="fm-h2">Extras</h2>
     <ul>
         <li>Extra Baby Shrimp (4 pieces) 1.95</li>
         <li>Jumbo Shrimp (1 piece) 1.25</li>
@@ -371,8 +373,8 @@
         <li>Pork (4 oz) 2.95 (8 oz) 4.50</li>
     </ul>
 
-    <h2>Dry Stir-Fry</h2>
-    <p>With Fresh Garlic, Ginger, and a touch of Light Soy Sauce</p>
+    <h2 class="fm-h2">Dry Stir-Fry</h2>
+    <p class="fm-para">With Fresh Garlic, Ginger, and a touch of Light Soy Sauce</p>
     <ul>
         <li>Mixed Vegetable with Chicken or Roast Pork or Tofu 14.95</li>
         <li>Mixed Vegetables with Beef or Shrimp 18.95</li>
@@ -384,44 +386,44 @@
 <!-- Section 7: Combination Dinner Platter -- Fryer Special -->
 
 <div class="fm-odd">
-    <h2>Combination Dinner Platter</h2>
-    <p>Served with Pork Fried Rice or White Rice or Brown Rice and Pork or Vegetable Egg Roll</p>
+    <h2 class="fm-h2">Combination Dinner Platter</h2>
+    <p class="fm-para">Served with Pork Fried Rice or White Rice or Brown Rice and Pork or Vegetable Egg Roll</p>
     <ol>
         <li>BBQ Spare Ribs or Boneless Ribs 10.25</li>
-        <li>Broccoli w. Garlic Sauce 9.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Broccoli w. Garlic Sauce 9.95</li>
         <li>Buddhist Delight 9.95</li>
         <li>Chicken or Roast Pork or Vegetable (Lo Mein or Chow Mein) 9.95</li>
         <li>Chicken w. Black Bean Sauce 10.95</li>
         <li>Chicken w. Cashew Nuts 11.95</li>
-        <li>Chicken w. Garlic Sauce 10.95</li>
-        <li>Curry Chicken 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Chicken w. Garlic Sauce 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Curry Chicken 10.95</li>
         <li>Chicken or Roast Pork w. Snow Peas or String Beans 11.95</li>
         <li>Chicken or Roast Pork w. Broccoli or Mixed Vegetables 10.95</li>
         <li>Egg Foo Young (Choice of shrimp, beef, chicken, roast pork, or vegetable) 10.95</li>
-        <li>Eggplant w. Garlic Sauce 10.95</li>
-        <li>General Tso's Chicken 11.95</li>
-        <li>Hot & Spicy Shredded Beef or Jumbo Shrimp 12.95</li>
-        <li>Hunan Spiced Chicken or Szechuan Chicken 10.95</li>
-        <li>Hunan Spiced Shrimp or Beef 12.95</li>
-        <li>Jumbo Shrimp or Beef w. Garlic Sauce 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Eggplant w. Garlic Sauce 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>General Tso's Chicken 11.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hot & Spicy Shredded Beef or Jumbo Shrimp 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hunan Spiced Chicken or Szechuan Chicken 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Hunan Spiced Shrimp or Beef 12.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Jumbo Shrimp or Beef w. Garlic Sauce 12.95</li>
         <li>Jumbo Shrimp or Beef & Broccoli or Mixed Vegetables 10.95</li>
         <li>Jumbo Shrimp w. Lobster Sauce 10.25</li>
         <li>Moo Goo Gai Pan 18.95</li>
         <li>Pepper Steak w. Onion 12.95</li>
         <li>Roast Pork w. Mixed Vegetables 9.25</li>
-        <li>Sesame Beef or Orange Beef or Shrimp 13.95</li>
-        <li>Seasame or Orange Chicken 11.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Sesame Beef or Orange Beef or Shrimp 13.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Sesame or Orange Chicken 11.95</li>
         <li>Shrimp or Beef (Lo Mein or Chow Mein) 10.95</li>
-        <li>String Beans w. Garlic Sauce 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>String Beans w. Garlic Sauce 10.95</li>
         <li>Sweet and Sour Chicken 11.95</li>
-        <li>Szechuan Style Tofu 9.95</li>
-        <li>General Tso's Tofu or Sesame Tofu 10.95</li>
-        <li>Kung Pao Chicken 11.95</li>
-        <li>Chicken Pepper and Onion 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Szechuan Style Tofu 9.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>General Tso's Tofu or Sesame Tofu 10.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Kung Pao Chicken 11.95</li>
+        <li><i class="bi bi-fire" id="red-fire"></i>Chicken Pepper and Onion 10.95</li>
     </ol>
 
-    <h2>Fryer Special</h2>
-    <div>Fried Chicken Wings</div>
+    <h2 class="fm-h2">Fryer Special</h2>
+    <div class="fm-para">Fried Chicken Wings</div>
     <ul>
         <li>Plain 9.95</li>
         <li>w. Pork Fried Rice or White Rice or French Fries 10.95</li>
@@ -429,7 +431,7 @@
         <li>w. Shrimp or Beef Fried Rice 14.95</li>
         <li>w. any kind of Lo Mein 15.95</li>
     </ul>
-    <div>Fried Shrimp or Fish</div>
+    <div class="fm-para">Fried Shrimp or Fish</div>
     <ul>
         <li>Plain 8.95</li>
         <li>w. Pork Fried Rice or White Rice or French Fries 10.95</li>
@@ -443,10 +445,10 @@
 <!-- Section 8: Menu Notes -->
 
 <div class="fm-even">
-    <h2>Menu Notes</h2>
+    <h2 class="fm-h2">Menu Notes</h2>
     <ul>
-        <li>Pepper = Hot & Spicy</li>
-        <li>GF = Gluten-Free</li>
+        <li><i class="bi bi-fire" id="red-fire"></i> = Hot & Spicy</li>
+        <li>[GF] = Gluten-Free</li>
         <li>-We can adjust the spicy level in any dish</li>
         <li>-We use only vegetable oil and white meat</li>
         <li>-Mixed Vegetables consist of broccoli, snow peas, baby corn, bok choy, water chestnuts, and carrots</li>

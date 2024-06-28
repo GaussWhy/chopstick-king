@@ -294,4 +294,33 @@ h1 {
 .fm-h2 {
     font-family: "Ubuntu", sans-serif;
     font-variant: small-caps;
+    padding-left: 35px;
+}
+
+.fm-para {
+    font-family: "Ubuntu", sans-serif;
+    padding-left: 35px;
+}
+
+.fm-guide {
+    font-weight: bold;
+    width: 45%;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed black;
+    margin-bottom: 5px;
+}
+
+ol li {
+    margin-left: 15px;
+}
+
+.fm-cs-item {
+    font-weight: bold;
+    padding-left: 35px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.fm-cs-desc {
+    padding-left: 35px;
 }
